@@ -19,7 +19,9 @@ section > h2 {
  text-align: center;
  color: #212121;
 }
+
 /* section header */
+
 header .logo {
  font-family: 'Raleway';
  font-style: normal;
@@ -28,14 +30,7 @@ header .logo {
  line-height: 1.19px;
  color: #2196f3;
 }
-header .nav-menu .current {
- font-style: normal;
- font-weight: 500;
- font-size: 14px;
- line-height: 1.14px;
- letter-spacing: 0.02em;
- color: #2196f3;
-}
+
 .header {
  font-style: normal;
  font-weight: 500;
@@ -44,19 +39,18 @@ header .nav-menu .current {
  letter-spacing: 0.02em;
  color: #212121;
 }
-.contact-menu .item {
+.item {
  font-style: normal;
  font-weight: 500;
  font-size: 14px;
  line-height: 1.14px;
  letter-spacing: 0.02em;
- color: #2196f3;
+ color: #757575;
 }
-.nav-menu .header:hover,
-.nav-menu .header:focus,
-.nav-menu .header .current,
-.contact-menu .item:hover,
-.contact-menu .item:focus {
+.header:hover,
+.header:focus,
+.item:hover,
+.item:focus {
  color: #2196f3;
 }
 
@@ -120,46 +114,37 @@ header .nav-menu .current {
 .footbar {
  background: #2f303a;
 }
-.footbar .logo-footer {
+.logo-footer {
  font-family: 'Raleway';
  font-style: normal;
  font-weight: 700;
  font-size: 26px;
- line-height: 1.19px;
  color: #2196f3;
 }
-.footbar .location {
+.location {
  font-style: normal;
  font-weight: 400;
  font-size: 14px;
  line-height: 1.71px;
  color: #ffffff;
+ text-decoration: none;
 }
-.foobar .contact {
+.contact {
  font-style: normal;
  font-weight: 400;
  font-size: 14px;
  line-height: 1.71px;
  color: rgba(255, 255, 255, 0.6);
+ text-decoration: none;
 }
-.address .contact:hover,
-.address .contact:focus {
+.contact:hover,
+.contact:focus {
  color: #2196f3;
 }
 
 /* seccion portafolio */
-
-.portafolio .current {
- font-weight: 500;
- font-size: 16px;
- color: #ffffff;
-
- background: #2196f3;
- box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-  0px 2px 2px rgba(0, 0, 0, 0.12);
- border-radius: 4px;
-}
-.portafolio .button {
+.button {
+ border: 0px;
  font-weight: 500;
  font-size: 16px;
  color: #212121;
@@ -167,7 +152,12 @@ header .nav-menu .current {
  background: #f5f4fa;
  border-radius: 4px;
 }
-
+.button:hover,
+.button:focus {
+ cursor: pointer;
+ background: #2196f3;
+ color: #f5f4fa;
+}
 .portafolio .portafolio-title {
  font-family: 'Roboto';
  font-style: normal;
